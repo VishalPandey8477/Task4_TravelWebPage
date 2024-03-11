@@ -1,0 +1,718 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:regular,italic,700);
+
+* {
+    font-style: "cardo";
+    color: #2f2f2e;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(249, 247, 244);
+}
+
+
+
+.travel_front_page {
+    position: relative;
+    padding-top: 3%;
+    padding-bottom: 10%;
+    background-image: url('./images/first_left.png'), url('./images/first_right.png');
+    background-repeat: no-repeat;
+    background-position: left 34px top 347px, right bottom -73px;
+}
+
+
+.upperContainer {
+    /* border: 2px solid black; */
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.navBar {
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top: 30px;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    padding-right: 4.5em;
+    font-size: 20px;
+    color: #81817e;
+}
+
+a:hover {
+    font-weight: bolder;
+    color: #2f2f2e;
+}
+
+.contact {
+    /* position: fixed; */
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 15px 60px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 400px;
+    cursor: pointer;
+}
+
+.traveltoDreamContainer {
+    /* border: 2px solid yellow; */
+    margin-top: 10%;
+}
+
+
+.ttd_Content {
+    /* border: 2px solid pink; */
+    /* margin-top: 7em; */
+    width: 29em;
+    display: inline-block;
+}
+
+.ttd_Heading {
+    line-height: 1em;
+    font-family: "Cardo";
+    font-size: 85px;
+    font-weight: 1000;
+    letter-spacing: 0.1px;
+}
+
+
+.ttd_Text {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.button_Reserve {
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 19px 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.ttd_Image {
+    /* border: 2px solid goldenrod; */
+    display: inline-block;
+    float: right;
+}
+
+.top_Image {
+    height: 440px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------For the Second part ---------------------------------- */
+
+.secondPart {
+    background-color: #2f2f2e;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-image: url(images/second_left.png), url(images/second_right.png);
+    background-repeat: no-repeat;
+    background-position: left 0px bottom 120px, right bottom 40px;
+
+}
+
+
+.memoryPart {
+    /* border: 2px solid wheat; */
+    width: 450px;
+    margin: auto;
+    align-items: center;
+
+}
+
+.memoryHeading {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 1px;
+    line-height: 60px;
+    margin-bottom: 1px;
+}
+
+
+.memoryContent {
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+.class_travellogs {
+    background-color: #2f2f2e;
+    margin: auto;
+    text-align: center;
+}
+
+
+.button_travellogs {
+    border: 2px solid white;
+    background-color: #2f2f2e;
+    color: white;
+    padding: 12px 45px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ---------------------------------------------third part------------------------------------------- */
+
+.thirdPart {
+    /* border: 1px solid red; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url(images/thirdpartLeftBg.png), url(images/thirdpartRightBg.png);
+    background-repeat: no-repeat;
+    background-size: 3%, 5%;
+    background-position: left top, right bottom 0px;
+
+}
+
+.containCards {
+    /* border: 2px solid blue; */
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+
+
+
+
+.cardFirst,
+.cardFirst1 {
+    /* border: 2px solid pink; */
+    width: 376px;
+    display: inline-block;
+
+}
+
+.cardFirst1 {
+    margin-right: 63px;
+
+}
+
+
+.thirdPart hr {
+    margin-right: 100%;
+    width: 50px;
+    height: 2px;
+    background-color: #2f2f2e;
+}
+
+.menstanding {
+
+    height: 250px;
+    width: 376px;
+    margin-bottom: 4%;
+
+}
+
+.cardFirst_content h1 {
+    font-size: 38px;
+    font-style: "cardo";
+    line-height: 2rem;
+    margin-right: 40%;
+    font-weight: 1000;
+}
+
+.cardFirst_content p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+/* ----------------------------fourth part--------------------------------- */
+
+
+.fourthPart {
+    /* border: 2px solid green; */
+    padding-top: 14%;
+    background-image: url(images/fourthPart_right.png);
+    background-repeat: no-repeat;
+    background-position: right 2rem;
+    padding-bottom: 3%;
+
+}
+
+
+.fourthPart_image {
+    /* border: 2px solid red; */
+    margin: auto;
+    text-align: center;
+}
+
+.fourthPart_image img {
+    /* border: 2px solid rgb(168, 168, 0); */
+}
+
+
+.fourthPart_content {
+    /* border: 1px solid blue; */
+    text-align: center;
+    padding-top: 2%;
+    margin: auto;
+    width: 600px;
+}
+
+.fourthPart_content .text {
+    /* border: 2px solid orange; */
+    font-size: 80px;
+    font-weight: 700;
+    /* width: 200px; */
+}
+
+.lorem {
+    margin-top: 2.5%;
+    text-align: center;
+}
+
+.loremText {
+    font-size: 20px;
+    font-weight: 1000;
+}
+
+.fourtimage_left {
+    margin-left: 180px;
+}
+
+.fourthBelow {
+
+    margin-top: 17%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* border: 1px solid rebeccapurple; */
+    display: flex;
+
+}
+
+
+.contentFlex {
+    /* border: 1px solid red; */
+    padding-top: 0%;
+    display: flex;
+}
+
+
+.belowLeft_img img {
+    width: 500px;
+}
+
+
+
+.belowright_text {
+    /* border: 1px solid green; */
+    width: 100%;
+    padding-left: 4%;
+    position: relative;
+
+
+}
+
+
+.belowright_text .head {
+    /* border: 1px solid yellow; */
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+    text-decoration: underline;
+    padding-right: 7%;
+
+
+}
+
+
+.belowright_text p {
+    /* border: 1px solid rebeccapurple; */
+    padding-top: 3%;
+    width: 100%;
+
+}
+
+.belowright_text .simpleText {
+    /* border: 1px solid green; */
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top: 0;
+
+
+}
+
+
+.belowright_text .img2 {
+    width: 180px;
+    position: absolute;
+    right: 0;
+    bottom: 2;
+}
+
+
+
+/* ---------------------------------Missing aprt========================================= */
+
+
+
+
+.missingPart {
+    background-color: #1b1b1a;
+    /* border: 2px solid black; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url(images/missingleft.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+
+
+}
+
+.missingPart h1,
+h2 {
+    color: white;
+}
+
+
+.missingPart .content {
+    /* border: 1px solid red; */
+    margin-left: 10%;
+}
+
+
+.missingPart h1 {
+
+    font-family: "Cardo";
+    font-size: 50px;
+    line-height: 42px;
+
+}
+
+.missingPart .down {
+    margin-top: 80px;
+}
+
+
+.missingPart .left {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 500px;
+}
+
+.missingPart .right {
+    /* border: 1px solid green; */
+    display: inline-block;
+    float: right;
+    /* margin-top: 28px; */
+}
+
+.missingPart .right img {
+
+    width: 670px;
+}
+
+
+
+/* --------------------------------------fifth part-------------------------------------- */
+
+.fifthPart {
+    /* border: 2px solid blue; */
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+.fifthPart_content {
+    /* border: 2px solid pink; */
+    display: inline-block;
+    width: 700px;
+}
+
+.fifthPart_content span {
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+.fifthPart_content p {
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+
+.fifthPart_image {
+    /* border: 2px solid olivedrab; */
+    display: inline-block;
+    margin-left: 7.2%;
+}
+
+
+.fifthPart h1 {
+    font-size: 80px;
+}
+
+.fifthPart hr {
+    background-color: #1b1b1a;
+    height: 2px;
+}
+
+
+
+/* -------------------------------------------------------Sixth Part--------------------------------------------------------- */
+
+
+.sixthPartfull {
+    padding-top: 0;
+    background-image: url(images/sixthleft.png), url(images/sixthright.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    /* border: 1px solid red; */
+    padding-bottom: 5%;
+    margin-top: 18%;
+    position: relative;
+}
+
+.sixthPart {
+    /* border: 2px solid rebeccapurple; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1.5%;
+}
+
+
+.sixthPart_heading {
+    /* border: 2px solid gray; */
+    font-size: 40px;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    line-height: 55px;
+}
+
+
+.sixthPart_cards {
+    /* border: 2px solid green; */
+    margin-top: 6%;
+}
+
+.sixthPart_cards .firstCard {
+    border: 3px solid rgb(47, 47, 47);
+    border-radius: 5px;
+    padding: 80px 30px;
+    width: 320px;
+    text-align: center;
+    display: inline-block;
+    /* margin-right: 35px; */
+
+}
+
+.sixthPart_cards .firstCard2,
+.firstCard3 {
+    margin-left: 24px;
+    border: 3px solid rgb(47, 47, 47);
+    border-radius: 5px;
+    padding: 80px 29px;
+    width: 320px;
+    text-align: center;
+    display: inline-block;
+}
+
+.sixthPart_cards img {
+    height: 110px;
+}
+
+
+.customerName {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.leftarrowww {
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 7px;
+    left: 7.4rem;
+    bottom: 18rem;
+    width: 40px;
+    height: 30px;
+    padding: 1% 1% 1% 1%;
+}
+
+
+.rightarrowww {
+    position: absolute;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 7px;
+    right: 8.1rem;
+    bottom: 18rem;
+    width: 40px;
+    height: 30px;
+    padding: 1% 1% 1% 1%;
+
+}
+
+/* ---------------------------------------Seventh Part---------------------------------------- */
+
+
+.seventhPart {
+    /* border: 1px solid red; */
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+
+.seventhPart .formPart {
+    /* border: 1px solid black; */
+    /* display: inline-block; */
+    width: 500px;
+    margin-bottom: 12%;
+    text-align: center;
+
+
+}
+
+
+.seventhPart .imagePart {
+    /* border: 1px solid blue; */
+    /* display: inline-block; */
+    margin-left: 90px;
+
+}
+
+.seventhPart img {
+    height: 618px;
+    width: 610px;
+    /* margin-left: px; */
+}
+
+.formHeading {
+    font-size: 90px;
+}
+
+form input {
+    font-size: 16px;
+    color: #1b1b1a;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 420px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+form textarea {
+    font-size: 16px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 420px;
+    padding-left: 20px;
+}
+
+form button {
+
+    color: white;
+    background-color: #000000;
+    font-size: 1.2rem;
+    padding: 3% 1% 7% 1%;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+    height: 40px;
+    border-radius: 5px;
+    width: 445px;
+    cursor: pointer;
+
+}
+
+::placeholder {
+    color: #1b1b1a;
+}
+
+
+
+/* ------------------------------------Footer------------------------------------ */
+
+.footer {
+    padding: 6% 0;
+    background-image: url(./images/last_left.png);
+    background-repeat: no-repeat;
+    background-position: left bottom 15px;
+    background-color: #c5c5c5;
+}
+
+.footerContent {
+    width: 80%;
+    margin: auto;
+}
+
+.footerContentLeft {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 29px;
+    line-height: 4px;
+}
+
+.footerContentRight {
+    width: 76%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2%;
+}
+
+.footerContentRightHeading {
+    /* border: 1px solid gray; */
+    padding-bottom: 1%;
+}
+
+td:nth-child(4) {
+    /* border: 1px solid pink; */
+    width: 249px
+}
+
+td {
+    padding-bottom: 1%;
+}
+
+
+td a {
+    /* border: 1px solid blue; */
+    color: black;
+    font-size: 19px;
+
+}
+
+.footerContentQuickLink {
+    /* border: 1px solid red; */
+    padding-bottom: 5%;
+}
+
+.footerCopyright {
+    text-align: center;
+    font-size: 25px;
+}
